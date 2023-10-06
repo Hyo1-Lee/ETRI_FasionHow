@@ -1,0 +1,11 @@
+program: /home/dcvlab/dcv/Coco/sub-task1/res_train.py
+method: random
+metric:
+  name: loss
+  goal: minimize
+parameters:
+  learning_rate:
+    min: 0.0001
+    max: 0.1
+  optimizer:
+    values: ["AdamW"]
